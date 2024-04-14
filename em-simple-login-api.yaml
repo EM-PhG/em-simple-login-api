@@ -55,11 +55,12 @@ paths:
               schema:
                 $ref: "#/components/schemas/User"
         '401':
-          description: Login failure
+          description: Invalid username or password
           content:
             application/json:
               schema:
                 $ref: "#/components/schemas/GeneralError"
+      se
   /useMe:
     get:
       description: Use of the API with the provided token
