@@ -60,7 +60,8 @@ paths:
             application/json:
               schema:
                 $ref: "#/components/schemas/GeneralError"
-      se
+      security:
+        - basic_auth: []
   /useMe:
     get:
       description: Use of the API with the provided token
