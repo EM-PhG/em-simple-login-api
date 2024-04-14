@@ -1,0 +1,10 @@
+{
+  "main": "em-simple-login-api.yaml",
+  "name": "em-simple-login-api",
+  "groupId": "c5882134-2454-4663-a9c7-2ff11fd17c41",
+  "assetId": "em-simple-login-api",
+  "version": "1.0.0",
+  "classifier": "oas",
+  "tags": [],
+  "descriptorVersion": "1.0.0"
+}
