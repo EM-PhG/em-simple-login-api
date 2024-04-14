@@ -4,5 +4,6 @@ info:
   title: em-simple-login-api
   description: A Simple Login API to test with EvoMaster
 servers:
-  - 
+  - url: https://simple-login.pgarrett.com
+  
 paths: {}
