@@ -73,4 +73,5 @@ paths:
             type: string
             format: "Bearer {token}"
       responses:
-        '200'
+        '200':
+          description: 
