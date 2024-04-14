@@ -20,5 +20,9 @@ components:
           format: int64
   responses:
     Unauthorized:
-      description: Invalid 
-paths: {}
+      description: Invalid username or password
+paths: 
+  /login:
+    post:
+      description: Login to the API
+      responses:
