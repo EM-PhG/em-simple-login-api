@@ -18,4 +18,7 @@ components:
         age:
           type: integer
           format: int64
+  responses:
+    Unauthorized:
+      description: Invalid 
 paths: {}
