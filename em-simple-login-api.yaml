@@ -18,6 +18,14 @@ components:
         age:
           type: integer
           format: int64
+    GeneralError:
+      type: object
+      properties:
+        code:
+          type: integer
+          format: int32
+        message:
+          type: string
   responses:
     Unauthorized:
       description: Invalid username or password
