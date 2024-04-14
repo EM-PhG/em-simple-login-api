@@ -74,4 +74,10 @@ paths:
             format: "Bearer {token}"
       responses:
         '200':
-          description: 
+          description: Welcome screen
+        '401':
+          description: Invalid token
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/GeneralError"
