@@ -39,6 +39,10 @@ components:
         application/json:
           schema:
             $ref: "#/components/schemas/GeneralError"
+  securitySchemes:
+    basic_auth:
+      type: http
+      scheme: basic
 paths: 
   /login:
     post:
