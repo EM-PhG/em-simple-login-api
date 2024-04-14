@@ -38,7 +38,8 @@ paths:
           description: Login failure
           content:
             application/json:
-              schema
+              schema:
+                $ref: 
   /useMe:
     get:
       description: Use of the API with the provided token
