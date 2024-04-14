@@ -29,8 +29,16 @@ components:
   responses:
     Unauthorized:
       description: Invalid username or password
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/GeneralError"
     InvalidToken:
       description: Invalid token
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/GeneralError"
 paths: 
   /login:
     post:
@@ -47,7 +55,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref:
+                $ref: "#/components/schemas/GeneralError"
   /useMe:
     get:
       description: Use of the API with the provided token
