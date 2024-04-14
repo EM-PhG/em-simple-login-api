@@ -43,7 +43,9 @@ components:
     basic_auth:
       type: http
       scheme: basic
-    acccess
+    token_auth:
+      type: http
+      scheme: bearer
 paths: 
   /login:
     post:
@@ -82,3 +84,5 @@ paths:
             application/json:
               schema:
                 $ref: "#/components/schemas/GeneralError"
+      security:
+        - token_auth: []
