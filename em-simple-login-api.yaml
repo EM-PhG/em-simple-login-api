@@ -11,7 +11,7 @@ components:
     User:
       type: object
       properties:
-        username:
+        acccess_token:
           type: string
         name:
           type: string
@@ -26,3 +26,7 @@ paths:
     post:
       description: Login to the API
       responses:
+        '200':
+          content:
+            application/json:
+              
