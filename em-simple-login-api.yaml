@@ -43,6 +43,7 @@ components:
     basic_auth:
       type: http
       scheme: basic
+    acccess
 paths: 
   /login:
     post:
