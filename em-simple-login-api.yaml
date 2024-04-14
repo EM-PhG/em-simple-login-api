@@ -22,7 +22,7 @@ components:
     Unauthorized:
       description: Invalid username or password
     InvalidToken:
-      des
+      description: Invalid token
 paths: 
   /login:
     post:
@@ -34,6 +34,11 @@ paths:
             application/json:
               schema:
                 $ref: "#/components/schemas/User"
+        '401':
+          description: Login failure
+          content:
+            application/json:
+              schema
   /useMe:
     get:
       description: Use of the API with the provided token
