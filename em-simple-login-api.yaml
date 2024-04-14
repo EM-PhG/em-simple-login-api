@@ -27,6 +27,8 @@ paths:
       description: Login to the API
       responses:
         '200':
+          description: Successful login
           content:
             application/json:
-              
+              schema:
+                $ref: "#/components/schemas/User"
