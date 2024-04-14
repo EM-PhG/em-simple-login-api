@@ -6,5 +6,10 @@ info:
 servers:
   - url: https://simple-login.pgarrett.com
     description: Production URL
-    
+components:
+  schemas:
+    User:
+      type: object
+      properties:
+        username:
 paths: {}
