@@ -3,4 +3,6 @@ info:
   version: 1.0.0
   title: em-simple-login-api
   description: A Simple Login API to test with EvoMaster
+servers:
+  - 
 paths: {}
