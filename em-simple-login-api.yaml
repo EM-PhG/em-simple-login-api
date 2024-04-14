@@ -21,6 +21,8 @@ components:
   responses:
     Unauthorized:
       description: Invalid username or password
+    InvalidToken:
+      des
 paths: 
   /login:
     post:
@@ -32,4 +34,6 @@ paths:
             application/json:
               schema:
                 $ref: "#/components/schemas/User"
-  /
+  /useMe:
+    get:
+      description: Use of the API with the provided token
